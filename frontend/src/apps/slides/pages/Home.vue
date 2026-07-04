@@ -171,7 +171,7 @@ onMounted(() => {
 })
 
 const navigateToEditor = () => {
-	router.push({ name: 'slides-editor-new' })
+	router.push({ name: 'slides-new-presentation' })
 }
 
 const duplicateAndNavigate = async (presentation) => {

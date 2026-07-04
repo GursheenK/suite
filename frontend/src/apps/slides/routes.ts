@@ -41,6 +41,11 @@ export const routes: RouteRecordRaw[] = [
         component: () => import('@/apps/slides/pages/Home.vue'),
       },
       {
+        path: 'presentation/create',
+        name: 'slides-new-presentation',
+        component: () => import('@/apps/slides/pages/NewPresentation.vue'),
+      },
+      {
         path: 'presentation/new',
         name: 'slides-editor-new',
         component: () => import('@/apps/slides/pages/PresentationEditor.vue'),
